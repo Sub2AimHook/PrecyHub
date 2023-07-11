@@ -57,11 +57,6 @@ local OtherTab = Window:MakeTab({
  PremiumOnly = false
 })
 
-local Section = OtherTab:AddSection({
- Name = "Universal"
-})
-
-
 OtherTab:AddButton({
  Name = "TP Aura",
  Callback = function()
@@ -73,6 +68,12 @@ OtherTab:AddButton({
  Name = "Reach",
  Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2AimHook/AimHook-Reach/main/Reach%20Code", true))()   end    
+})
+
+OtherTab:AddButton({
+ Name = "Stream Sniper",
+ Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Precycepton/Player-Track/main/e"))()", true))()   end    
 })
 
 OrionLib:Init()
