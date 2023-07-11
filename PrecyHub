@@ -76,4 +76,10 @@ OtherTab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Precycepton/Player-Track/main/e"))()", true))()   end    
 })
 
+OtherTab:AddButton({
+ Name = "Fly Hack",
+ Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sub2AimHook/Fly/main/fly"))()", true))()   end    
+})
+
 OrionLib:Init()
